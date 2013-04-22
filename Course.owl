@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gx578007/ontologies/NtuCourse"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/gx578007/ontologies/NtuCourse">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#上課時間"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#中文課程名稱"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#加選方式"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#學期"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#授課教師中文姓名"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#授課教師英文姓名"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#授課教師識別碼"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#教室"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#班次"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#系所識別碼"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#英文課程名稱"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#課程識別碼"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#課號"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atr_中文姓名"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_上課時間"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_中文名"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_修課學期"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_加選方式"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_學分數"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_授課老師"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_授課課程"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_教室"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_英文名"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_課程班次"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_課程課號"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_識別碼"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#attr_開課系所"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#中To英"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#英To中"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atr_中文姓名"/>
+        <Class IRI="#授課教師識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_上課時間"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_上課時間"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_中文名"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_修課學期"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_加選方式"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_加選方式"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_學分數"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_學分數"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_授課老師"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_授課老師"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_授課課程"/>
+        <Class IRI="#授課教師中文姓名"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_教室"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_教室"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_英文名"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_課程班次"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_課程班次"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_課程課號"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_識別碼"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_識別碼"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_開課系所"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#attr_開課系所"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#中To英"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#中To英"/>
+        <Class IRI="#授課教師中文姓名"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#英To中"/>
+        <Class IRI="#授課教師英文姓名"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#英To中"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atr_中文姓名"/>
+        <Class IRI="#授課教師中文姓名"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_上課時間"/>
+        <Class IRI="#上課時間"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_中文名"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_修課學期"/>
+        <Class IRI="#學期"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_加選方式"/>
+        <Class IRI="#加選方式"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_學分數"/>
+        <DataSomeValuesFrom>
+            <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_授課老師"/>
+        <Class IRI="#授課教師中文姓名"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_授課課程"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_教室"/>
+        <Class IRI="#教室"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_英文名"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_課程班次"/>
+        <Class IRI="#班次"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_課程課號"/>
+        <Class IRI="#課號"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_識別碼"/>
+        <Class IRI="#課程識別碼"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#attr_開課系所"/>
+        <Class IRI="#系所識別碼"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#中To英"/>
+        <Class IRI="#授課教師英文姓名"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#中To英"/>
+        <Class IRI="#英文課程名稱"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#英To中"/>
+        <Class IRI="#中文課程名稱"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#英To中"/>
+        <Class IRI="#授課教師中文姓名"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
