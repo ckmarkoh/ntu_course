@@ -1,0 +1,16 @@
+1.系所命名or授課對象
+	ex:中文系->中國文學系
+2.命名不一致
+	B471 Division Of Bioindustry
+	A011 Department Of Law, Legal Science Division
+3.特殊符號 
+	J100 Industrial Technology R&Amp;D Master Program
+4.軍訓,視聽中心,共同教育？
+	0030 Ntu Military Training                                                       
+	0040 Audio Visual Educational Center                                             
+	H010 Cge                                                                         
+5.課外活動組？沒英文
+	0050 學務處課外活動組
+6.符號處理
+	J100 Industrial Technology R&Amp;D Master Program
+	去掉所有符號 空格換成_,最多連續一個

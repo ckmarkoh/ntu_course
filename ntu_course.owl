@@ -57,6 +57,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#hasChineseName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#hasChineseName">
+        <rdfs:range rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#hasDifficulty -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#hasDifficulty">
@@ -225,15 +234,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#hasChineseName -->
-
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#hasChineseName">
-        <rdfs:range rdf:resource="&xsd;string"/>
-        <rdfs:subPropertyOf rdf:resource="&owl;topDataProperty"/>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#hasID -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#hasID">
@@ -250,6 +250,119 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Bachelor_S_Degree_Program_In_Chinese_Literature_For_International_Students -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Bachelor_S_Degree_Program_In_Chinese_Literature_For_International_Students">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chinese_Literature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Clinical_Psychology_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Clinical_Psychology_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Psychology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#General_Psychology_Program"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Common_Courses_Of_Medical_and_Public_Health_Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Common_Courses_Of_Medical_and_Public_Health_Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
     
 
 
@@ -275,34 +388,1987 @@
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Doctor_Student -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Accouting -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Doctor_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Accouting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Freshman_Student -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Business_Administration -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Freshman_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Business_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Junior_Student -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Finance -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Junior_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Student -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Intrnational_Business -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Intrnational_Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Accounting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Accounting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Chemistry_Agricultural_Product_Processing_Divisi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Chemistry_Agricultural_Product_Processing_Divisi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Department_Of_Agricultural_Chemistry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Chemistry_Soils_and_Fertilizer_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Chemistry_Soils_and_Fertilizer_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Chemistry_Soils_and_Fertilizer_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Department_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension_Extension_Education_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension_Extension_Education_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension_Rural_Sociology_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension_Rural_Sociology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension_Rural_Sociology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agronomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agronomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Animal_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Animal_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Anthropology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Anthropology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Applied_English -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Applied_English">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Atmospheric_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Atmospheric_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bio-Industrial_Mechatronics_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bio-Industrial_Mechatronics_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Biochemical_Science_And_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Biochemical_Science_And_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bioenvironmental_Systems_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bioenvironmental_Systems_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Business_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Business_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Industrial_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Industrial_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chinese_Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chinese_Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Civil_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Civil_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Computer_Science_and_Information_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Computer_Science_and_Information_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Dentistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Dentistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Department_Of_Agricultural_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Department_Of_Agricultural_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Drama_And_Theatre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Drama_And_Theatre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Electrical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Electrical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Engineering_Science_Ocean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Engineering_Science_Ocean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Entomology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Entomology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Foreign_Languages_And_Literatures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Foreign_Languages_And_Literatures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Industries_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Industries_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Management_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Management_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Resources_Conservation_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Resources_Conservation_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Silviculture_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Silviculture_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geosciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geosciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Horticulture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Horticulture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Information_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Information_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_International_Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_International_Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Japanese_Language_And_Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Japanese_Language_And_Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Adjudication_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Adjudication_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Economic_and_Financial_Laws_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Economic_and_Financial_Laws_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Legal_Science_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Legal_Science_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Library_And_Information_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Library_And_Information_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Life_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Life_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Materials_Science_And_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Materials_Science_And_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mechanical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mechanical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medical_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medical_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Nursing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Nursing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Occupational_Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Occupational_Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Pharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Philosophy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Philosophy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physical_Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physical_Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology_and_Entomology_Plant_Pathology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology_and_Entomology_Plant_Pathology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_International_Relations_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_International_Relations_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Political_Theory_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Political_Theory_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Public_Administration_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Public_Administration_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Public_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Public_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology_Social_Work_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology_Social_Work_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology_Sociology_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology_Sociology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology_Sociology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Veterinary_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Veterinary_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary"/>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Biochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Biochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Bioindustry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Bioindustry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Chemical_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Chemical_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemistry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Health_Care_And_Industry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Health_Care_And_Industry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Health_Policy_And_Management"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Health_Promotion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Health_Promotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Health_Promotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Health_Policy_And_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Molecular_Pharmaceutics_Department_Of_Pharmaccy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Molecular_Pharmaceutics_Department_Of_Pharmaccy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Pharmaceutical_Technology_Department_Of_Pharmacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Nutritional_Biochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Nutritional_Biochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Pharmaceutical_Technology_Department_Of_Pharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Pharmaceutical_Technology_Department_Of_Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Biomedical_Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Biomedical_Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Epidemiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Epidemiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Preventive_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Preventive_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Emba_With_Emphasis_On_Knowledge_Manage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Emba_With_Emphasis_On_Knowledge_Manage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Environmental_Science_and_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Environmental_Science_and_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Executive_Master_Business_Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Executive_Master_Business_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#General_Psychology_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#General_Psychology_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Psychology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Geno_And_System_Biology_Degree_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Geno_And_System_Biology_Degree_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Global_Mba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Global_Mba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Accounting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Accounting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Biochemistry_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Biochemistry_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Bioindustrial_Chemistry_Divisio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Bioindustrial_Chemistry_Divisio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Microbiology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Microbiology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Nutrition_Science_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Nutrition_Science_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Soil_Environment_Science_and_Pla -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Soil_Environment_Science_and_Pla">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Extension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Extension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy_Biometry_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy_Biometry_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy_Crop_Science_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy_Crop_Science_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy_Crop_Science_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anatomy_And_Cell_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anatomy_And_Cell_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Animal_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Animal_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anthropology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anthropology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Art_History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Art_History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Atmospheric_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Atmospheric_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bio-Industrial_Mechatronics_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bio-Industrial_Mechatronics_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biochemical_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biochemical_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bioenviromental_Systems_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bioenviromental_Systems_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomediacl_Imaging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomediacl_Imaging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Electronics_And_Bioinformatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Electronics_And_Bioinformatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Botany -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Botany">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Brain_And_Mind_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Brain_And_Mind_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Building_and_Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Building_and_Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Business_Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Business_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chinese_And_Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chinese_And_Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Computer-Aided_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Computer-Aided_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Construction_Engineering_And_Managem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Construction_Engineering_And_Managem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Geotechnical_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Geotechnical_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Hydraulic_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Hydraulic_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Structural_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Structural_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Transporation_Engineering_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Transporation_Engineering_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Dentistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Dentistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Genomics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Genomics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Pharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Tissue_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Tissue_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Communication_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Communication_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Computer_Science_and_Information_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Computer_Science_and_Information_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Department_Graduat_Institute_Of_Biochemistry_And_Mole -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Department_Graduat_Institute_Of_Biochemistry_And_Mole">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Drama_And_Theatre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Drama_And_Theatre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electrical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electrical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electro-Optical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electro-Optical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electronics_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electronics_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Engineering_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Engineering_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Entomology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Entomology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Finance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Finance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Fisheries_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Fisheries_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Food_Science_and_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Food_Science_and_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Foreign_Languages_And_Literatures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Foreign_Languages_And_Literatures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forensic_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forensic_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forestry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forestry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences_Applied_Geology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences_Applied_Geology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences_Geology_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences_Geology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences_Geology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Care_Organization_Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Care_Organization_Administration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Policy_And_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Policy_And_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_History -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_History">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Horticulltural_Crop_Science_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Horticulltural_Crop_Science_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Landscape_Horticulture_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Landscape_Horticulture_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Postharvest_Horticulture_andPrcessing_Divi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Postharvest_Horticulture_andPrcessing_Divi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Immunology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Immunology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Industrial_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Industrial_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Information_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Information_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Interdisciplinary_Legal_Studies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Interdisciplinary_Legal_Studies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_International_Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_International_Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Journalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Journalism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Law">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Library_And_Information_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Library_And_Information_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Linguistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Linguistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Materials_Science_And_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Materials_Science_And_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Aeronautical_Divisi0n -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Aeronautical_Divisi0n">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Fluid_Mechanics_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Fluid_Mechanics_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Manufacturing_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Manufacturing_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Mechanical_Design_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Mechanical_Design_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Solid_Mecnanics_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Solid_Mecnanics_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_System_Control_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_System_Control_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Thermal_Science_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Thermal_Science_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Medical_Technology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Medical_Technology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology_Microbiology_and_Immunology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology_Microbiology_and_Immunology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology_Parasitology_Division"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology_Parasitology_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology_Parasitology_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_And_Comparative_Pathobiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_And_Comparative_Pathobiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Musicology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Musicology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_National_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_National_Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Networking_And_Multimedia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Networking_And_Multimedia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Nursing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Nursing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Occupational_Medicine_And_Industrial_Hygiene -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Occupational_Medicine_And_Industrial_Hygiene">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Chemical_Oceanography_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Chemical_Oceanography_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Biology_and_Fisheries_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Biology_and_Fisheries_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Geology_and_Geophysics_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Geology_and_Geophysics_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Physical_Oceanography_Division -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Physical_Oceanography_Division">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oral_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oral_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pathology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pathology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Philosophy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Philosophy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physical_Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physical_Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Plant_Pathology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Plant_Pathology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Political_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Political_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Preventive_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Preventive_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Sociology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Sociology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Toxicology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Toxicology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Veterinary_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Veterinary_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_In_Translation_And_Interpretation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_In_Translation_And_Interpretation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_Of_Teaching_Chinese_As_A_Second_Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_Of_Teaching_Chinese_As_A_Second_Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduatte_Institute_Of_Oncology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduatte_Institute_Of_Oncology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#INDUSTRIAL_RandD_TECHNOLOGY_PROGRAM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#INDUSTRIAL_RandD_TECHNOLOGY_PROGRAM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Program"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Technology_RandD_Master_Program"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Technology_RandD_Master_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Technology_RandD_Master_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Program"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Arstrophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Arstrophysics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biochemical_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biochemical_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biotechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biotechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Ecology_And_Evolutionary_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Ecology_And_Evolutionary_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Fisheries_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Fisheries_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Health_Policy_And_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Health_Policy_And_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Japanese_Language_And_Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Japanese_Language_And_Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Molecular_And_Cellular_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Molecular_And_Cellular_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Plant_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Plant_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Polymer_Science_And_Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Polymer_Science_And_Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Veterinary_Clinical_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Veterinary_Clinical_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Zoology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Zoology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Of_Public_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Of_Public_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Ntu-Fudan_Emba -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Ntu-Fudan_Emba">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
     </owl:Class>
     
 
@@ -310,6 +2376,14 @@
     <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#People -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#People"/>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Ph.D._Of_Translational_Medicine_Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Ph.D._Of_Translational_Medicine_Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
     
 
 
@@ -431,27 +2505,75 @@
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Senior_Student -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Senior_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Sophomore_Student -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Sophomore_Student">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#People"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Teacher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Doctor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Doctor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Graduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Freshman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Freshman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Graduate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Graduate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Junior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Junior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Master -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Master">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Graduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Senior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Senior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Sophomore -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Sophomore">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_UnderGraduate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
     </owl:Class>
     
 
@@ -464,63 +2586,103 @@
     
 
 
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Department_Of_Social_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Department_Of_Social_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institude_Of_Taiwan_Literature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institude_Of_Taiwan_Literature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Occupational_Therapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Occupational_Therapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Social_Work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Social_Work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Ms_Program_For_Plant_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Ms_Program_For_Plant_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time"/>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Friday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Friday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Friday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Friday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Monday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Monday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Monday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Monday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Saturday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Saturday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Saturday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Saturday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Sunday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Sunday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Sunday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Sunday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Thursday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Thursday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Thursday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Thursday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Tuesday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Tuesday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Tuesday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Tuesday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Wednesday -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Wednesday -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Wednesday">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Wednesday">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day"/>
     </owl:Class>
     
@@ -534,105 +2696,105 @@
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_1 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_1 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_1">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_1">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_2 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_2 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_2">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_2">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_3 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_3 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_3">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_3">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_4 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_4 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_4">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_4">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_5 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_5 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_5">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_5">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_6 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_6 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_6">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_6">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_7 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_7 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_7">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_7">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_8 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_8 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_8">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_8">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_9 -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_9 -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_9">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_9">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_A -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_A -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_A">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_A">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_B -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_B -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_B">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_B">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_C -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_C -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_C">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_C">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_at -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_at -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_at">
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_at">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section"/>
     </owl:Class>
     
@@ -654,22 +2816,195 @@
     
 
 
-    <!-- http://www.w3.org/2002/07/owl#Thing -->
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#大師風範 -->
 
-    <rdf:Description rdf:about="&owl;Thing">
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Course"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Teacher"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-    </rdf:Description>
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#大師風範">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#好課 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#好課">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#幽默風趣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#幽默風趣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#很崩潰 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#很崩潰">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#操課 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#操課">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#有趣 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有趣">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#有點困難 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點困難">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#有點涼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點涼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#有點簡單 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點簡單">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#有點重 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點重">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#深入淺出 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#深入淺出">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#紮實 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#紮實">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#總評 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#總評">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#聽不太懂 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#聽不太懂">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#觀點精闢 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#觀點精闢">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔適中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔適中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#難度 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#難度">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#難度適中 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#難度適中">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#非常困難 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常困難">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#非常涼 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常涼">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#非常簡單 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常簡單">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#非常重 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常重">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/markchang/ontologies/ntu_course#風格 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#風格">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary_Chinese_Rate"/>
+    </owl:Class>
     
 
 
@@ -684,51 +3019,229 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Friday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Monday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Saturday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Sunday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Thursday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Tuesday"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_D_Wednesday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Economics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Sociology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Economics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Journalism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_National_Development"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Political_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Sociology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Department_Of_Social_Work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Social_Work"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Doctor_Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Freshman_Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Junior_Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Senior_Student"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Sophomore_Student"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Course"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#CourseRecord"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Dictionary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#People"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Difficulty"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Loading"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Style"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Summary"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Adjudication_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Economic_and_Financial_Laws_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law_Legal_Science_Division"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_1"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_2"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_3"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_4"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_5"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_6"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_7"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_8"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_9"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_A"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_B"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_C"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_S_at"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Biochemical_Science_And_Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Life_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Geno_And_System_Biology_Degree_Program"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biochemical_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Ecology_And_Evolutionary_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Fisheries_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Microbiology_And_Biochemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Molecular_And_Cellular_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Plant_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Zoology"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Aeronautical_Divisi0n"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Fluid_Mechanics_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Manufacturing_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Mechanical_Design_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Solid_Mecnanics_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_System_Control_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering_Thermal_Science_Division"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Accouting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Business_Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Finance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_And_Graduate_Institute_Of_Intrnational_Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Accounting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Finance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Information_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_International_Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Emba_With_Emphasis_On_Knowledge_Manage"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Executive_Master_Business_Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Global_Mba"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Accounting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Business_Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Finance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Information_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_International_Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Ntu-Fudan_Emba"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Agriculture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Electrical_Engineering_And_Computer_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Liberal_Arts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Life_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Public_Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#College_Of_Social_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Industrial_Program"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Computer_Science_and_Information_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Electrical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Electronics_And_Bioinformatics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Communication_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Computer_Science_and_Information_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electrical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electro-Optical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Electronics_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Networking_And_Multimedia"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Atmospheric_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Geosciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mathematics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Psychology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Physics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Atmospheric_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biochemical_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Botany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Fisheries_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Geosciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mathematics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Psychology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Zoology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Arstrophysics"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Doctor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Freshman"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Junior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Master"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Senior"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Student_Sophomore"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Industries_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Management_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Forest_Resources_Conservation_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry_Silviculture_Division"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Public_Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Health"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Epidemiology_And_Preventive_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Care_Organization_Administration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Health_Policy_And_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Occupational_Medicine_And_Industrial_Hygiene"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Preventive_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Health_Policy_And_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Master_Of_Public_Health"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Friday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Monday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Saturday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Sunday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Thursday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Tuesday"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Day_Wednesday"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Biochemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Bioindustry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Microbiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Division_Of_Nutritional_Biochemistry"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_A"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_B"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_C"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Time_Section_at"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Computer-Aided_Engineering_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Construction_Engineering_And_Managem"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Geotechnical_Engineering_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Hydraulic_Engineering_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Structural_Engineering_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering_Transporation_Engineering_Division"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
@@ -744,11 +3257,230 @@
     <rdf:Description>
         <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Anthropology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Applied_English"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chinese_Literature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Drama_And_Theatre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Foreign_Languages_And_Literatures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Japanese_Language_And_Literature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Library_And_Information_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Philosophy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anthropology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Art_History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chinese_And_Literature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Drama_And_Theatre"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Foreign_Languages_And_Literatures"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_History"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Library_And_Information_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Linguistics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Musicology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Philosophy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_In_Translation_And_Interpretation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Program_Of_Teaching_Chinese_As_A_Second_Language"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Japanese_Language_And_Literature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institude_Of_Taiwan_Literature"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Horticulltural_Crop_Science_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Landscape_Horticulture_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture_Postharvest_Horticulture_andPrcessing_Divi"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Biomedical_Statistics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Epidemiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Divisions_Of_Preventive_Medicine"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Sum_Awful"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Sum_Good"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Sum_Interesting"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Sum_Thoroughly"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Sum_Tiring"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Biochemistry_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Bioindustrial_Chemistry_Divisio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Microbiology_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Nutrition_Science_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry_Soil_Environment_Science_and_Pla"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Common_Courses_Of_Medical_and_Public_Health_Education"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Dentistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medical_Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Nursing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Occupational_Therapy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Pharmacy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Physical_Therapy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Anatomy_And_Cell_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomediacl_Imaging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Brain_And_Mind_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Dentistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Genomics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Pharmacy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Clinical_Tissue_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Department_Graduat_Institute_Of_Biochemistry_And_Mole"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forensic_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Immunology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Medical_Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Microbiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Nursing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oral_Biology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pathology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Pharmacy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physical_Therapy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Physiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Toxicology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduatte_Institute_Of_Oncology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Ph.D._Of_Translational_Medicine_Program"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Graduate_Institute_Of_Occupational_Therapy"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Chemical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Engineering_Science_Ocean"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Materials_Science_And_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Mechanical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Applied_Mechanics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Biomedical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Building_and_Planning"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Chemical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Civil_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Engineering_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Environmental_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Industrial_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Materials_Science_And_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Mechanical_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Polymer_Science_And_Engineering"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Business_Management"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Business_Administration-Division_Of_Industrial_Management"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_International_Relations_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Political_Theory_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Political_Science_Public_Administration_Division"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Law"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Interdisciplinary_Legal_Studies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Law"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Chemical_Oceanography_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Biology_and_Fisheries_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Marine_Geology_and_Geophysics_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Oceanography_Physical_Oceanography_Division"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#大師風範"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#好課"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#幽默風趣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#很崩潰"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#操課"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有趣"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點困難"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點涼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點簡單"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#有點重"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#深入淺出"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#紮實"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#總評"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#聽不太懂"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#觀點精闢"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#負擔適中"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#難度"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#難度適中"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常困難"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常涼"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常簡單"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#非常重"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#風格"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Difficulty"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Loading"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Style"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Rate_Summary"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Economics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agricultural_Extension"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Agronomy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Animal_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bio-Industrial_Mechatronics_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Bioenvironmental_Systems_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Department_Of_Agricultural_Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Entomology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Forestry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Horticulture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Plant_Pathology_and_Entomology_Plant_Pathology_Division"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Department_Of_Veterinary_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Chemistry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Economics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agricultural_Extension"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Agronomy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Animal_Science"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bio-Industrial_Mechatronics_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Bioenviromental_Systems_Engineering"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Entomology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Food_Science_and_Technology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Forestry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Horticulture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Molecular_And_Comparative_Pathobiology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Plant_Pathology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Graduate_Institute_Of_Veterinary_Medicine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Biotechnology"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#Institute_Of_Veterinary_Clinical_Sciences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/markchang/ontologies/ntu_course#The_Ms_Program_For_Plant_Medicine"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>

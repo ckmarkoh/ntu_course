@@ -1,0 +1,65 @@
+==Class==
+Course
+Student
+	Freshman_Student
+	Sophomore_Student
+	Junior_Student
+	Senior_Student
+	Master_Student
+	Doctor_Student
+Teacher
+Department
+Rate
+	Summary
+		Good
+		Tiring
+		Thoroughly
+		Awful
+		Interesting
+	Style
+		Masterful
+		Humorous
+		Understandable
+		Unfathomable
+		Insightful
+	Loading
+	Difficulty
+Time
+	Day
+		Monday
+		Tuesday
+		Wednesday
+		Thursday
+		Friday
+		Saturday
+		Sunday
+	Section
+		S_1
+		S_2
+		S_3
+		S_4
+		S_at
+		S_5
+		S_6
+		S_7
+		S_8
+		S_9
+		S_A
+		S_B
+		S_C
+
+==Property=
+Course
+	isTeachBy
+	isOpenBy
+	isTakenBy
+	hasRate
+	hasStyle
+	hasLoading
+	hasDifficulty
+	hasID
+	isInSemester
+Student
+	hasID
+	isInDepartment
+	hasTaken

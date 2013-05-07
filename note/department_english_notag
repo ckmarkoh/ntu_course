@@ -1,0 +1,272 @@
+0020 The Atheletic Department Of Ntu
+0030 Ntu Military Training                                             
+0040 Audio Visual Educational Center                                             
+H010 Cge                                                                         
+1000 College Of Liberal Arts                                                     
+	1010 Department Of Chinese Literature                                            
+		1011 Bachelor’S Degree Program In Chinese Literature For International Students  
+	1020 Department Of Foreign Languages And Literatures                             
+	1030 Department Of History                                                       
+	1040 Department Of Philosophy                                                    
+	1050 Department Of Anthropology                                                  
+	1060 Department Of Library And Information Science                               
+	1070 Department Of Japanese Language And Literature                              
+	1080 Department Of Applied English                                               
+	1090 Department Of Drama And Theatre                                             
+	1210 Graduate Institute Of Chinese And Literature                                
+	1220 Graduate Institute Of Foreign Languages And Literatures                     
+	1230 Graduate Institute Of History                                               
+	1240 Graduate Institute Of Philosophy                                            
+	1250 Graduate Institute Of Anthropology                                          
+	1260 Graduate Institute Of Library And Information Science                       
+	1270 Institute Of Japanese Language And Literature                               
+	1290 Graduate Institute Of Drama And Theatre                                     
+	1410 Graduate Institute Of Art History                                           
+	1420 Graduate Institute Of Linguistics                                           
+	1440 Graduate Institute Of Musicology                                            
+	1450 The Graduate Institude Of Taiwan Literature                                 
+	1460 Graduate Program Of Teaching Chinese As A Second Language                   
+	1470 Graduate Program In Translation And Interpretation                          
+2000 College Of Science                                                          
+	2010 Department Of Mathematics                                                   
+	2020 Department Of Physics                                                       
+	2030 Department Of Chemistry                                                     
+	2040 Department Of Geosciences                                                   
+	2070 Department Of Psychology                                                    
+	2080 Department Of Geography                                                     
+	2090 Department Of Atmospheric Sciences                                          
+	2210 Graduate Institute Of Mathematics                                           
+	2220 Graduate Institute Of Physics                                               
+	2230 Graduate Institute Of Chemistry                                             
+		2231 Division Of Chemistry                                                       
+		2232 Division Of Chemical Biology                                                
+	2240 Graduate Institute Of Geosciences                                           
+		2241 Graduate Institute Of Geosciences, Geology Division                         
+		2242 Graduate Institute Of Geosciences, Applied Geology Division                 
+	2250 Graduate Institute Of Zoology                                               
+	2260 Graduate Institute Of Botany                                                
+	2270 Graduate Institute Of Psychology                                            
+		2271 General Psychology Program                                                  
+		2272 Clinical Psychology Program                                                 
+	2280 Graduate Institute Of Geography                                             
+	2290 Graduate Institute Of Atmospheric Sciences                                  
+	2410 Graduate Institute Of Oceanography                                          
+		2411 Graduate Institute Of Oceanography, Physical Oceanography Division          
+		2412 Graduate Institute Of Oceanography, Marine Biology &Amp; Fisheries Division     
+		2413 Graduate Institute Of Oceanography, Marine Geology &Amp; Geophysics Division    
+		2414 Graduate Institute Of Oceanography, Chemical Oceanography Division          
+	2420 Graduate Institute Of Biochemical Sciences                                  
+	2430 Graduate Institute Of Fisheries Science                                     
+	2440 Institute Of Arstrophysics                                                  
+	2450 Graduate Institute Of Applied Physics                                       
+3000 College Of Social Sciences                                                  
+	3010 Department Of Law                                                           
+	3020 Department Of Political Science                                             
+		3021 Department Of Political Science,Political Theory Division                   
+		3022 Department Of Political Science, International Relations Division           
+		3023 Department Of Political Science, Public Administration Division             
+	3030 Department Of Economics                                                     
+	3050 Department Of Sociology                                                     
+		3051 Department Of Sociology, Sociology Division                                 
+		3052 Department Of Sociology, Social Work Division                               
+	3100 The Department Of Social Work                                               
+	3220 Graduate Institute Of Political Science                                     
+	3230 Graduate Institute Of Economics                                             
+	3250 Graduate Institute Of Sociology                                             
+	3300 The Graduate Institute  Of Social Work                                      
+	3410 Graduate Institute Of National Development                                  
+	3420 Graduate Institute Of Journalism                                            
+4000 College Of Medicine                                                         
+	4010 Department Of Medicine                                                      
+	4020 Department Of Dentistry                                                     
+	4030 Department Of Pharmacy                                                      
+	4040 Department Of Medical Technology                                            
+	4060 Department Of Nursing                                                       
+	4080 Department Of Physical Therapy                                              
+	4090 Department Of Occupational Therapy                                          
+	4200 Common Courses Of Medical &Amp; Public Health Education                         
+	4210 Graduate Institute Of Clinical Medicine                                     
+	4220 Graduate Institute Of Clinical Dentistry                                    
+	4230 Graduate Institute Of Pharmacy                                              
+		4231 Division Of Pharmaceutical Technology,Department Of Pharmacy                
+		4232 Division Of Molecular Pharmaceutics,Department Of Pharmaccy                 
+	4240 Graduate Institute Of Medical Technology                                    
+	4260 Graduate Institute Of Nursing                                               
+	4280 Graduate Institute Of Physical Therapy                                      
+	4290 The Graduate Institute Of Occupational Therapy                              
+	4410 Graduate Institute Of Physiology                                            
+	4420 Graduate Institute Of Department(Graduat Institute) Of Biochemistry And Mole
+	4430 Graduate Institute Of Pharmacology                                          
+	4440 Graduate Institute Of Pathology                                             
+	4450 Graduate Institute Of Microbiology                                          
+		4451 Graduate Institute Of Microbiology, Microbiology &Amp; Immunology Division      
+		4452 Graduate Institute Of Microbiology, Parasitology Division                   
+	4460 Graduate Institute Of Anatomy And Cell Biology                              
+	4470 Graduate Institute Of Toxicology                                            
+	4480 Graduate Institute Of Molecular Medicine                                    
+	4490 Graduate Institute Of Immunology                                            
+	4500 Graduate Institute Of Oral Biology                                          
+	4510 Graduate Institute Of Clinical Pharmacy                                     
+	4520 Graduate Institute Of Forensic Medicine                                     
+	4530 Graduatte Institute Of Oncology                                             
+	4540 Graduate Institute Of Brain And Mind Sciences                               
+	4550 Graduate Institute Of Clinical Genomics                                     
+	4560 Ph.D. Of Translational Medicine Program                                     
+	4570 Graduate Institute Of Clinical Tissue Engineering                           
+	4580 Graduate Institute Of Biomediacl Imaging                                    
+5000 College Of Engineering                                                      
+	5010 Department Of Civil Engineering                                             
+	5020 Department Of Mechanical Engineering                                        
+	5040 Department Of Chemical Engineering                                          
+	5050 Department Of Engineering Science Ocean                                     
+	5070 Department Of Materials Science And Engineering                             
+	5210 Graduate Institute Of Civil Engineering                                     
+		5211 Graduate Institute Of Civil Engineering,Geotechnical Engineering Division   
+		5212 Graduate Institute Of Civil Engineering, Structural Engineering Division    
+		5213 Graduate Institute Of Civil Engineering, Hydraulic Engineering Division     
+		5215 Graduate Institute Of Civil Engineering, Transporation Engineering Division 
+		5216 Graduate Institute Of Civil Engineering,Computer-Aided Engineering Division 
+		5217 Graduate Institute Of Civil Engineering,Construction Engineering And Managem
+	5220 Graduate Institute Of Mechanical Engineering                                
+		5221 Graduate Institute Of Mechanical Engineering, Fluid Mechanics Division      
+		5223 Graduate Institute Of Mechanical Engineering, Thermal Science Division      
+		5224 Graduate Institute Of Mechanical Engineering, Aeronautical Divisi0n         
+		5225 Graduate Institute Of Mechanical Engineering,Solid Mecnanics Division       
+		5226 Graduate Institute Of Mechanical Engineering,Mechanical Design Division     
+		5227 Graduate Institute Of Mechanical Engineering,Manufacturing Division         
+		5228 Graduate Institute Of Mechanical Engineering,System Control Division        
+	5240 Graduate Institute Of Chemical Engineering                                  
+	5250 Graduate Institute Of Engineering Science                                   
+	5270 Graduate Institute Of Materials Science And Engineering                     
+	5410 Graduate Institute Of Environmental Engineering                             
+		5411 Environmental Science &Amp; Engineering Division                                
+	5430 Graduate Institute Of Applied Mechanics                                     
+	5440 Graduate Institute Of Building &Amp; Planning                                   
+	5460 Graduate Institute Of Industrial Engineering                                
+	5480 Graduate Institute Of Biomedical Engineering                                
+	5490 Institute Of Polymer Science And Engineering                                
+6000 College Of Agriculture                                                      
+	6010 Department Of Agronomy                                                      
+	6020 Department Of Bioenvironmental Systems Engineering                          
+	6030 Department Of Department Of Agricultural Chemistry                          
+		6031 Department Of Agricultural Chemistry, Soils &Amp; Fertilizer Division           
+		6032 Department Of Agricultural Chemistry, Agricultural Product Processing Divisi
+	6040 Department Of Plant Pathology &Amp; Entomology, Plant Pathology Division        
+	6050 Department Of Forestry                                                      
+		6051 Department Of Forestry, Silviculture Division                               
+		6052 Department Of Forestry, Forest Management Division                          
+		6053 Department Of Forestry, Forest Industries Division                          
+		6054 Department Of Forestry, Forest Resources Conservation Division              
+	6060 Department Of Animal Science                                                
+	6070 Department Of Agricultural Economics                                        
+	6080 Department Of Horticulture                                                  
+	6090 Department Of Veterinary Medicine                                           
+	6100 Department Of Agricultural Extension                                        
+		6101 Department Of Agricultural Extension, Extension Education Division          
+		6102 Department Of Agricultural Extension,Rural Sociology Division               
+	6110 Department Of Bio-Industrial Mechatronics Engineering                       
+	6120 Department Of Entomology                                                    
+	6130 Department Of Plant Pathology                                               
+	6210 Graduate Institute Of Agronomy                                              
+		6211 Graduate Institute Of Agronomy, Crop Science Division                       
+		6212 Graduate Institute Of Agronomy, Biometry Division                           
+	6220 Graduate Institute Of Bioenviromental Systems Engineering                   
+	6230 Graduate Institute Of Agricultural Chemistry                                
+		6234 Graduate Institute Of Agricultural Chemistry, Soil Environment Science &Amp; Pla
+		6235 Graduate Institute Of Agricultural Chemistry,Bioindustrial Chemistry Divisio
+		6236 Graduate Institute Of Agricultural Chemistry, Biochemistry Division         
+		6237 Graduate Institute Of Agricultural Chemistry ,Nutrition  Science Division   
+		6238 Graduate Institute Of Agricultural Chemistry,Microbiology Division          
+	6250 Graduate Institute Of Forestry                                              
+	6260 Graduate Institute Of Animal Science                                        
+	6270 Graduate Institute Of Agricultural Economics                                
+	6280 Graduate Institute Of Horticulture                                          
+		6281 Graduate Institute Of Horticulture, Horticulltural Crop Science Division    
+		6282 Graduate Institute Of Horticulture, Postharvest Horticulture &Amp;Prcessing Divi
+		6283 Graduate Institute Of Horticulture, Landscape Horticulture Division         
+	6290 Graduate Institute Of Veterinary Medicine                                   
+	6300 Graduate Institute Of Agricultural Extension                                
+	6310 Graduate Institute Of Bio-Industrial Mechatronics Engineering               
+	6320 Graduate Institute Of Entomology                                            
+	6330 Graduate Institute Of Plant Pathology                                       
+	6410 Graduate Institute Of Food Science &Amp; Technology                             
+	6420 Institute Of Biotechnology                                                  
+	6430 Institute Of Veterinary Clinical Sciences                                   
+	6440 Graduate Institute Of Molecular And Comparative Pathobiology                
+	6450 The Ms Program For Plant Medicine                                           
+7000 College Of Management                                                       
+	7010 Department Of Business Administration                                       
+		7011 Department Of Business Administration-Division Of Business Management       
+		7012 Department Of Business Administration-Division Of Industrial Management     
+		7013 Department Of Business Administration-Division Of                           
+	7020 Department Of Accounting                                                    
+	7030 Department Of Finance                                                       
+	7040 Department Of International Business                                        
+	7050 Department Of Information Management                                        
+	7060 Department Of Business Administration                                       
+	7220 Graduate Institute Of Accounting                                            
+	7230 Graduate Institute Of Finance                                               
+	7240 Graduate Institute Of International Business                                
+	7250 Graduate Institute Of Information Management                                
+	7400 Executive Master Business Administration                                    
+	7410 Graduate Institute Of Business Administration                               
+	7420 Emba(With Emphasis On Knowledge Manage)                                     
+	7440 Department And Graduate Institute Of Accouting                              
+	7450 Department And Graduate Institute Of Finance                                
+	7460 Department And Graduate Institute Of Intrnational Business                  
+	7470 Department Of Information Management                                        
+	7480 Department And Graduate Institute Of Business Administration                
+	7490 Global Mba                                                                  
+	7500 Ntu-Fudan Emba                                                              
+8000 College Of Public Health                                                    
+	8010 Department Of Public Health                                                 
+	8410 Graduate Institute Of Occupational Medicine And Industrial Hygiene          
+	8420 Graduate Institute Of Epidemiology                                          
+	8430 Graduate Institute Of Health Care Organization Administration               
+	8440 Graduate Institute Of Environmental Health                                  
+	8450 Graduate Institute Of Health Policy And Management                          
+	8460 Graduate Institute Of Preventive Medicine                                   
+	8470 Master Of Public Health                                                     
+	8480 Institute Of Health Policy And Management                                   
+		8481 Division Of Health Promotion                                                
+		8482 Division Of Health Care And Industry                                        
+	8490 Graduate Institute Of Epidemiology And Preventive Medicine                  
+		8491 Divisions Of Epidemiology                                                   
+		8492 Divisions Of Biomedical Statistics                                          
+		8493 Divisions Of Preventive Medicine                                            
+9000 College Of Electrical Engineering And Computer Science                      
+	9010 Department Of Electrical Engineering                                        
+	9020 Department Of Computer Science &Amp; Information Engineering                    
+	9210 Graduate Institute Of Electrical Engineering                                
+	9220 Graduate Institute Of Computer Science &Amp; Information Engineering            
+	9410 Graduate Institute Of Electro-Optical Engineering                           
+	9420 Graduate Institute Of Communication Engineering                             
+	9430 Graduate Institute Of Electronics Engineering                               
+	9440 Graduate Institute Of Networking And Multimedia                             
+	9450 Graduate Institute Of Biomedical Electronics And Bioinformatics             
+A000 College Of Law                                                              
+	A010 Department Of Law                                                           
+		A011 Department Of Law, Legal Science Division                                   
+		A012 Department Of Law, Adjudication Division                                    
+		A013 Department Of Law, Economic &Amp; Financial Laws Division                       
+	A210 Graduate Institute Of Law                                                   
+	A410 Graduate Institute Of Interdisciplinary Legal Studies                       
+B000 College Of Life Science                                                     
+	B010 Department Of Life Science                                                  
+	B020 Department Of Biochemical Science And Technology                            
+	B220 Department Of Biochemical Science And Technology                            
+	B410 Institute Of Zoology                                                        
+	B420 Institute Of Plant Biology                                                  
+	B430 Institute Of Molecular And Cellular Biology                                 
+	B440 Institute Of Ecology And Evolutionary Biology                               
+	B450 Institute Of Fisheries Science                                              
+	B460 Institute Of Biochemical Science                                            
+	B470 Institute Of Microbiology And Biochemistry                                  
+		B471 Division Of Bioindustry                                                     
+		B472 Division Of Biochemistry                                                    
+		B473 Division Of Nutritional Biochemistry                                        
+		B474 Division Of Microbiology                                                    
+	B480 Geno And System Biology Degree Program                                      
+J000 Industrial Program                                                          
+	J100 Industrial Technology R&Amp;D Master Program                                    
+	J110 INDUSTRIAL R&Amp;D TECHNOLOGY PROGRAM                                           
